@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JetClientState">
+    <option name="draftsState">
+      <draftsState>
+        <option name="requests">
+          <list>
+            <requestState>
+              <option name="id" value="2eb48274-fe72-4a71-96df-72fceb9fb8d9" />
+              <option name="method" value="GET" />
+              <option name="name" value="Draft" />
+              <option name="queryParams">
+                <list>
+                  <queryParamState>
+                    <option name="key" value="filter" />
+                    <option name="value" value="all" />
+                  </queryParamState>
+                </list>
+              </option>
+              <option name="url" value="https://www.linkedin.com/notifications/?filter=all" />
+            </requestState>
+          </list>
+        </option>
+      </draftsState>
+    </option>
+    <option name="id" value="b4b68bc7-35e4-4aa1-8eee-06f70ff44b5f" />
+  </component>
+</project>
