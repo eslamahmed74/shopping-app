@@ -13,6 +13,14 @@ class HomeViewModel @Inject constructor(): ViewModel() {
     private val _searchState = MutableStateFlow("")
     val searchState = _searchState.asStateFlow()
 
+    private val _selectedState= MutableStateFlow(false)
+    val selectedState=_selectedState.asStateFlow()
+
+    fun setSelectedState(){
+        _selectedState.value=!_selectedState.value
+    }
+
+
     fun setSearchFiledState(newValue: String) {
         _searchState.value = newValue
     }
